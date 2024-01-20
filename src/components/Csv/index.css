@@ -1,0 +1,109 @@
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+@media screen and (max-width:991px) {
+    .main-container{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .form-container{
+        margin-left: 8rem;
+        align-self: center;
+    }
+}
+form{
+    background-color: rgb(221, 227, 231);
+    border: 2px solid #a0daec;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+input {
+    background-color: #fff;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.add-employes-btn {
+    display: block;
+    background-color: #4F46E5;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+.download-btn  {
+    background-color: #4F46E5;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 1.5rem;
+  }
+
+.employees-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-height: 10vh; */
+    padding: 2rem;
+}
+
+.employees{
+    display: flex;
+    flex-direction: column;
+}
+.employee{
+    margin: 1rem 0 0 0;
+    background-color: rgb(221, 227, 231);
+    border: 2px solid #a0daec;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    margin-right: 2rem;
+    /* border: 2px solid red; */
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.delete-icon{
+    border: none;
+    background-color: rgb(221, 227, 231);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.not-found{
+    background-color: rgb(221, 227, 231);
+    border: 2px solid #a0daec;
+    border-radius: 1rem;
+    padding: 0rem 1rem 0 1rem;
+}
